@@ -80,6 +80,7 @@ obtainInstruction('steak',0)
                 .then((step7)=> {
                   document.querySelector("#steak").innerHTML += `<li>${step7}</li>`
                   document.querySelector("#steak").innerHTML += `<li>Stake is ready!</li>`
+                  document.querySelector("#steakImg").removeAttribute("hidden");
                 })
 
 // Iteration 3 using async/await
